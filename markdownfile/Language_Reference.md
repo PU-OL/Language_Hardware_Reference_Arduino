@@ -125,7 +125,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc. T
 
 **Description:**
 
-Configures the specifiedpin to behave either as an ``INPUT`` or an ``OUTPUT``.
+Configures the specified pin to behave either as an ``INPUT`` or an ``OUTPUT``.
 
 See the [Digital Pins](https://docs.arduino.cc/learn/microcontrollers/digital-pins/) page for daeatils on the functionality of the pins.
 
