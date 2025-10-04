@@ -39,7 +39,7 @@ npm install jsdom
 2. Open the reference you want to print from the folder:
  ``Langauge_Hardware_Reference_Arduino/markdownfile/CHOSEREFERENCE.md``
 
-3. In the mardkwon file you have press ``strg + shift + v`` to open the markdown preview
+3. In the markdown file you have press ``strg + shift + v`` to open the markdown preview
 
 4. In the bottom right corner you can find a burger menu. Open it and choose:
  ``export -> HTML -> HTML(offline)``
