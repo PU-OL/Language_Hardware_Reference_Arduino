@@ -223,7 +223,7 @@ abs(a);
 a++;  // keep other math outside the function
 ```
 
-#### contstrain()
+#### constrain()
 
 **Description:**
 
