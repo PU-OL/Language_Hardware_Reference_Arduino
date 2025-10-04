@@ -213,7 +213,7 @@ void loop() {
 
 **Notes and Warnings:**
 
-Avoid using othe functions in the function of ``abs()``, it may lead to incorrect results.
+Avoid using other functions in the function of ``abs()``, it may lead to incorrect results.
 
 ```arduino
 abs(a++); // avoid this - yields incorrect results
