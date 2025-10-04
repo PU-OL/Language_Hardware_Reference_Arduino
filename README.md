@@ -1,4 +1,4 @@
-# Langauge/Hardware Reference Arduino
+# Language/Hardware Reference Arduino
 
 > [!NOTE]
 > This reference is based on the official Arduino® documentation.
