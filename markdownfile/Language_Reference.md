@@ -4,7 +4,7 @@
 
 ![Logo](../images/logo.png){width=200px}
 
-**Autor:** Philipp Uhlendorf
+**Author:** Philipp Uhlendorf
 
 **Datum:** Oktober 2025
 
