@@ -36,7 +36,7 @@ npm install jsdom
 
 1. Clone and open the project form Github as a project in VS Code[^5]
 
-2. Open the refernce you want to print from the folder:
+2. Open the reference you want to print from the folder:
  ``Langauge_Hardware_Reference_Arduino/markdownfile/CHOSEREFERENCE.md``
 
 3. In the mardkwon file you have press ``strg + shift + v`` to open the markdown preview
