@@ -169,7 +169,7 @@ void loop() {
 
 **Description:**
 
-This function calctulates the absolute value of an given number.
+This function calculates the absolute value of a given number.
 
 **Syntax:**
 
