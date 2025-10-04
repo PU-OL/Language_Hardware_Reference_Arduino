@@ -1,0 +1,168 @@
+/* ============================================================
+   📘 Allgemeine Formatierung
+   ============================================================ */
+html, body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  -webkit-print-color-adjust: exact;
+}
+
+/* Seitenränder für A4 */
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+/* Drucksichere Sections */
+.section-block {
+  page-break-inside: avoid !important;
+  break-inside: avoid !important;
+  display: table;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+/* Keine Gruppierung in Titelsektion */
+.title-section .section-block {
+  page-break-inside: auto !important;
+  break-inside: auto !important;
+  display: block;
+}
+
+/* ============================================================
+   🖼️ Titelseite (section.titlepage)
+   ============================================================ */
+section.titlepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  page-break-after: always;
+  break-after: page;
+}
+
+section.titlepage img {
+  display: block;
+  max-width: 200px;
+  margin: 1em auto;
+}
+
+section.titlepage p {
+  font-size: 1.1em;
+  margin: 0.2em 0;
+}
+
+/* ============================================================
+   📖 Inhaltsverzeichnis (.md-toc)
+   ============================================================ */
+
+.md-toc {
+  page-break-before: always;
+  page-break-after: always;
+  break-before: page;
+  break-after: page;
+  text-align: left;
+}
+
+.md-toc::before {
+  content: "Table of Contents";
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.md-toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.md-toc li {
+  font-size: 1em;
+  margin: 0.25em 0;
+}
+
+/* ============================================================
+   📄 Seitenumbruch vor jeder h3 (außer der ersten)
+   ============================================================ */
+h3:not(:first-of-type) {
+  page-break-before: always;
+  break-before: page;
+}
+
+/* ============================================================
+   💬 GitHub-Style NOTE Blöcke
+   ============================================================ */
+
+/* Standard Blockquote */
+blockquote {
+  border-left: 4px solid #d0d7de;
+  background-color: #f6f8fa;
+  padding: 10px 16px;
+  margin: 1em 0;
+  border-radius: 6px;
+  color: #24292e;
+}
+
+/* Speziell für [!NOTE]-Blöcke */
+blockquote p:first-child:contains("[!NOTE]"),
+blockquote:has(p:contains("[!NOTE]")) {
+  border-left-color: #0969da;
+  background-color: #f1f8ff;
+  position: relative;
+  padding-top: 8px;
+}
+
+blockquote:has(p:contains("[!NOTE]"))::before {
+  content: "💡 NOTE";
+  font-weight: 600;
+  color: #0969da;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Entferne das sichtbare [!NOTE]-Tag im Inhalt */
+blockquote p:first-child:contains("[!NOTE]") {
+  display: none;
+}
+
+/* ============================================================
+   🖥️ Codeblöcke zusammenhalten (pre, code)
+   ============================================================ */
+/* --- Codeblock-Wrapper: kein Seitenumbruch zwischen p und pre --- */
+.code-block-wrapper {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  display: table;
+  width: 100%;
+}
+
+/* Damit p und pre zusammen wie eine Einheit wirken */
+.code-block-wrapper > p,
+.code-block-wrapper > pre {
+  display: table-row;
+}
+
+/* Optional: Stilierung des Codeblocks */
+pre {
+  background: #f6f8fa;
+  border-radius: 6px;
+  padding: 8px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* Entfernt zusätzlichen Abstand, der Trennung erzwingen kann */
+p {
+  margin-bottom: 0;
+}
