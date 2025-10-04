@@ -237,7 +237,7 @@ constrain(x,a,b);
 
 **Parameters:**
 
-In all paramters all data types are allowed.
+In all parameters all data types are allowed.
 
 ``x``: the number to constrain.
 ``a``: the lower end of the range.
