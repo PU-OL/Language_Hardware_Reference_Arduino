@@ -4,10 +4,6 @@
 > This reference is based on the official Arduino® documentation.
 >
 
->[TOC]
->
->
-
 ## Project Description
 
 This is a project to make the [Arduino® documentation](https://shorturl.at/NwSqA) easy to understand and downloadable as well as ready to print.
