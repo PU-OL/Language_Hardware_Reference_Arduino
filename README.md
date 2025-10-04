@@ -24,7 +24,7 @@ GNU GENERAL PUBLIC LICENSE
 
 ## Content
 
-This Repository includes many diffrent things:
+This Repository includes many different things:
 
 - The official Arduino® Project book in the english version
 - The markdown files of the reference
