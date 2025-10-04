@@ -10,7 +10,7 @@ This is a project to make the [Arduino® documentation](https://shorturl.at/NwSq
 
 ## Project state
 
-🔧 This project is in develpment
+🔧 This project is in development
 
 ## License
 
