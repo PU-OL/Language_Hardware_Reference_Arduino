@@ -109,6 +109,6 @@ fs.readFile(filePath, 'utf8', (err, data) => {
   // --- 6. Datei überschreiben ---
   fs.writeFile(filePath, dom.serialize(), 'utf8', err => {
     if (err) throw err;
-    console.log('✅ HTML erfolgreich verarbeitet und DOM sicher neu aufgebaut!');
+    console.log('✅ HTML successfully processed and DOM safely rebuilt!');
   });
 });
