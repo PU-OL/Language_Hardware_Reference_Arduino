@@ -1,0 +1,8 @@
+# .gitignore
+
+out.pdf
+file.html
+Language_Reference.html
+Testbefehle_powershell.txt
+*.log
+*.html
