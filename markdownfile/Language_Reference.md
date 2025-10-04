@@ -127,7 +127,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc. T
 
 Configures the specified pin to behave either as an ``INPUT`` or an ``OUTPUT``.
 
-See the [Digital Pins](https://docs.arduino.cc/learn/microcontrollers/digital-pins/) page for daeatils on the functionality of the pins.
+See the [Digital Pins](https://docs.arduino.cc/learn/microcontrollers/digital-pins/) page for details on the functionality of the pins.
 
 It is possible to enable the internal pull-up resistors with the mode ``INPUT_PULLUP``. Additionally, th ``INPUT`` mode explicitly disables the internal pull-up.
 
