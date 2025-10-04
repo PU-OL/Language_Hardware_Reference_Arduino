@@ -6,7 +6,7 @@
 
 **Author:** Philipp Uhlendorf
 
-**Date:** Oktober 2025
+**Date:** October 2025
 
 > ![Logo](../images/info.png){width=50px}
 >
