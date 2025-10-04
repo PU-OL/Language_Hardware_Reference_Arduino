@@ -65,7 +65,7 @@ node filesforprint/addstyle.js markdownfile/CHOSEREFERENCE.html
 ### How to edit the markdown or the style
 
 > [!WARNING]
-> Editing the style file could cause multiple stayle and console errors
+> Editing the style file could cause multiple style and console errors
 > Editing the markdown files is allowed as long as it does not violate the license
 >
 
