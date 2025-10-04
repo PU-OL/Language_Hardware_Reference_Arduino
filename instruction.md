@@ -19,7 +19,7 @@
 2. Install Node.js
 
 After you followed the installation agent from Node.js, you have to start the cmd[^4].
-Than you have to start to jsdom, through enter the following line in the cmd:
+Then you have to install jsdom by entering the following line in the cmd:
 
 ```bash
 npm install jsdom
