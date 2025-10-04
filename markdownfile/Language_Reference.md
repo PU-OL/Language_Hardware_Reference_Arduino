@@ -10,7 +10,7 @@
 
 > ![Logo](../images/info.png){width=50px}
 >
-> **In the Reference are ``HIGH`` and ``LOW`` used. IF you don´t want to use it you can also use ``1`` for ``HIGH`` and ``0`` for ``LOW``**
+> **In the Reference, ``HIGH`` and ``LOW`` are used. IF you don’t want to use them, you can also use ``1`` for ``HIGH`` and ``0`` for ``LOW``**
 
 </section>
 
