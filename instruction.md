@@ -73,12 +73,12 @@ node filesforprint/addstyle.js markdownfile/CHOSEREFERENCE.html
 
 For editing the markdown files you need an editor like VS Code or the basic editor from windows. All Markdown files you can find in the folder markdownfiles.
 
-#### Editing the syle
+#### Editing the style
 
-> [!NOTE] For editing the syles you need CSS and JS. If you are not familiar with these languages it should be avoided to edit the style.
+> [!NOTE] For editing the styles you need CSS and JS. If you are not familiar with these languages it should be avoided to edit the style.
 >
 
-For editing you have to distinguish between the style it self via the syle sheet in ``../designfiles/pdfstyle.pdf`` and the file, which you can find in ``../fileforprint/addstyle.js`` for automatic add the style to the generated html file. This files have some comments but no fully documentation.
+For editing you have to distinguish between the style it self via the style sheet in ``../designfiles/pdfstyle.pdf`` and the file, which you can find in ``../fileforprint/addstyle.js`` for automatic add the style to the generated html file. This files have some comments but no fully documentation.
 
 ©2025 PU-OL
 
