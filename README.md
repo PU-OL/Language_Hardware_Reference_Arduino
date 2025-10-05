@@ -15,7 +15,8 @@ This is a project to make the [Arduino® documentation](https://shorturl.at/NwSq
 ## License
 
 GNU GENERAL PUBLIC LICENSE
-[Show license]()
+
+[Show license](https://github.com/PU-OL/Language_Hardware_Reference_Arduino?tab=GPL-3.0-1-ov-file)
 
 > [!NOTE]
 > Icons are partially from another source (https://www.flaticon.com) and are protected by copyright.
@@ -30,6 +31,6 @@ This Repository includes many different things:
 - The markdown files of the reference
     - Language
     - Hardware
-- an instruction to print the markdown reference, also to pdf
+- an [instruction to print the markdown reference](https://github.com/PU-OL/Language_Hardware_Reference_Arduino/blob/main/instruction.md), also to pdf
 
 ©2025 PU-OL
