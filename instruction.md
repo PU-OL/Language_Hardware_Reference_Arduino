@@ -61,7 +61,7 @@ cd "C:\Users\YOUR-USERNAME\...\Language_Hardware_Reference_Arduino"
 node filesforprint/addstyle.js markdownfile/CHOSEREFERENCE.html 
 ```
 
-6. Open the ``CHOSENREFERENCE.html`` in your browser over the explorer
+6. Open the ``Language_Hardware_Reference_Arduino/markdownfile/CHOSENREFERENCE.html`` in your browser over the explorer
 
 7. Press ``strg + p`` on this website and choose the printer and print
 
