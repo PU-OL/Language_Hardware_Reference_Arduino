@@ -1,14 +1,21 @@
 # Instruction
 
-> [TOC]
+> ## Table of Content
 >
+> 1. [How to print the markdown and to pdf](#how-to-print-the-markdown-and-to-pdf)
+>    - [I. Needed Software](#needed-software)
+>    - [II. Convert the markdown to pdf](#convert-the-markdown-to-pdf)
+> 2. [How to edit the markdwon or the style](#how-to-edit-the-markdown-or-the-style)
+>    - [I. Editing the markdown files](#editing-the-markdown-files)
+>    - [II. Editing the syle](#editing-the-style)
+> 3. [Footnotes](#footnotes)
 >
 
 ---
 
 ## How to print the markdown and to pdf
 
-### Needed software
+### I. Needed software
 
 1. You need to install some software:
 
@@ -32,7 +39,7 @@ npm install jsdom
 - Switch on the left side to extensions and search for: *Markdown Preview Enhanced*
 - After this extension is fully installed and started you finished all needed installations
 
-### Covert the markdown to pdf
+### II. Convert the markdown to pdf
 
 1. Clone and open the project form Github as a project in VS Code[^5]
 
@@ -62,20 +69,23 @@ node filesforprint/addstyle.js markdownfile/CHOSEREFERENCE.html
 > To get a pdf you have to choose the printer: *Microsoft Print to PDF*
 >
 
-### How to edit the markdown or the style
+---
+
+## How to edit the markdown or the style
 
 > [!WARNING]
 > Editing the style file could cause multiple style and console errors
 > Editing the markdown files is allowed as long as it does not violate the license
 >
 
-#### Editing the markdown files
+### I. Editing the markdown files
 
 For editing the markdown files you need an editor like VS Code or the basic editor from windows. All Markdown files you can find in the folder markdownfiles.
 
-#### Editing the style
+### II. Editing the style
 
-> [!NOTE] For editing the styles you need CSS and JS. If you are not familiar with these languages it should be avoided to edit the style.
+> [!NOTE]
+> For editing the styles you need CSS and JS. If you are not familiar with these languages it should be avoided to edit the style.
 >
 
 For editing you have to distinguish between the style it self via the style sheet in ``../designfiles/pdfstyle.pdf`` and the file, which you can find in ``../fileforprint/addstyle.js`` for automatic add the style to the generated html file. This files have some comments but no fully documentation.
@@ -84,8 +94,14 @@ For editing you have to distinguish between the style it self via the style shee
 
 ---
 
+## {#footnotes}
+
 [^1][Download Node.js](https://nodejs.org/en/download)
+
 [^2][Download VS Code](https://code.visualstudio.com/Download)
+
 [^3] This is an extension in VS Code
+
 [^4] The cmd can be startet during pressing ``win + r`` and enter ``cmd``.
-[^5] Under the green fild you can download the software. [Github Repository](https://github.com/PU-OL/Language_Hardware_Reference_Arduino)
+
+[^5] Under the green field ``Code`` you can download the software. [Github Repository](https://github.com/PU-OL/Language_Hardware_Reference_Arduino)
