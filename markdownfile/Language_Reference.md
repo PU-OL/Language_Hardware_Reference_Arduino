@@ -8,9 +8,13 @@
 
 **Date:** October 2025
 
-> ![Logo](../images/info.png){width=50px}
+<br>
+
+> [!NOTE]
 >
-> **In the Reference, ``HIGH`` and ``LOW`` are used. IF you don’t want to use them, you can also use ``1`` for ``HIGH`` and ``0`` for ``LOW``**
+> In the Reference, ``HIGH`` and ``LOW`` are used.
+> If you don’t want to use them, you can also use ``1`` for ``HIGH`` and ``0`` for ``LOW``
+>
 
 </section>
 
@@ -38,9 +42,7 @@ digitalRead(pinnumber);
 
 **Parameter:**
 
-The function admits the following parameter:
-``pinnumber``
-The Arduino pin number you want to read.
+- ``pinnumber``: The Arduino pin number you want to read.
 
 **Returns:**
 
@@ -67,6 +69,9 @@ void loop() {
 **Notes and Warnings:**
 
 Nothing.
+
+<br>
+<br>
 
 #### digitalWrite()
 
@@ -179,7 +184,7 @@ abs(x);
 
 **Parameters:**
 
-``x``: the number to compute.
+- ``x``: the number to compute.
 
 **Returns:**
 
@@ -309,7 +314,7 @@ map(value, fromLow, fromHigh, toLow, toHigh);
 
 **Returns:**
 
-The mapped value. Data type: ``long``.
+The mapped value as ``long``.
 
 **Example Code:**
 
@@ -603,3 +608,7 @@ void loop() {
 **Notes and Warnings:**
 
 Nothing.
+
+---
+
+©2025 PU-OL
