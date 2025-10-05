@@ -37,7 +37,7 @@ npm install jsdom
 1. Clone and open the project form Github as a project in VS Code[^5]
 
 2. Open the reference you want to print from the folder:
- ``Langauge_Hardware_Reference_Arduino/markdownfile/CHOSEREFERENCE.md``
+ ``Language_Hardware_Reference_Arduino/markdownfile/CHOSEREFERENCE.md``
 
 3. In the markdown file you have press ``strg + shift + v`` to open the markdown preview
 
@@ -48,7 +48,7 @@ npm install jsdom
 
 ```bash
 #Choose the path to this folder and press enter
-cd "C:\Users\YOUR-USERNAME\...\Langauge_Hardware_Reference_Arduino" 
+cd "C:\Users\YOUR-USERNAME\...\Language_Hardware_Reference_Arduino" 
 
 # Add style to your reference as html you generated before
 node filesforprint/addstyle.js markdownfile/CHOSEREFERENCE.html 
@@ -88,4 +88,4 @@ For editing you have to distinguish between the style it self via the style shee
 [^2][Download VS Code](https://code.visualstudio.com/Download)
 [^3] This is an extension in VS Code
 [^4] The cmd can be startet during pressing ``win + r`` and enter ``cmd``.
-[^5] Under the green fild you can download the software. [Github Repository](https://github.com/PU-OL/Langauge_Hardware_Reference_Arduino)
+[^5] Under the green fild you can download the software. [Github Repository](https://github.com/PU-OL/Language_Hardware_Reference_Arduino)
