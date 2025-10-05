@@ -5,7 +5,7 @@
 > 1. [How to print the markdown and to pdf](#how-to-print-the-markdown-and-to-pdf)
 >    - [I. Needed Software](#I.-needed-software)
 >    - [II. Convert the markdown to pdf](#II.-convert-the-markdown-to-pdf)
-> 2. [How to edit the markdwon or the style](#how-to-edit-the-markdown-or-the-style)
+> 2. [How to edit the markdown or the style](#how-to-edit-the-markdown-or-the-style)
 >    - [I. Editing the markdown files](#I.-editing-the-markdown-files)
 >    - [II. Editing the syle](#II.-editing-the-style)
 > 3. [Footnotes](#footnotes)
