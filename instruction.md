@@ -94,7 +94,7 @@ For editing you have to distinguish between the style it self via the style shee
 
 ---
 
-## Footenotes
+## Footnotes
 
 [^1][Download Node.js](https://nodejs.org/en/download)
 
