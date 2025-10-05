@@ -38,6 +38,16 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     }
   });
 
+    // --- 2.5 NOTE-Block-Erkennung ---
+  Array.from(document.querySelectorAll('blockquote')).forEach(bq => {
+    const firstP = bq.querySelector('p');
+    if (firstP && firstP.textContent.trim().startsWith('[!NOTE]')) {
+      bq.setAttribute('data-type', 'note');
+      // Entferne das [!NOTE]-Tag aus dem Inhalt
+      firstP.remove();
+    }
+  });
+
   // --- 3. Titelsection vom Beginn bis TOC (blockquote.md-toc) ---
   const toc = document.querySelector('blockquote.md-toc');
   if (toc) {

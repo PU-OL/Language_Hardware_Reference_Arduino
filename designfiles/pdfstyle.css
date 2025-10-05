@@ -98,6 +98,10 @@ h3:not(:first-of-type) {
   break-before: page;
 }
 
+h4{
+  color: #0969da !important;
+}
+
 /* ============================================================
    💬 GitHub-Style NOTE Blöcke
    ============================================================ */
@@ -113,25 +117,41 @@ blockquote {
 }
 
 /* Speziell für [!NOTE]-Blöcke */
-blockquote p:first-child:contains("[!NOTE]"),
-blockquote:has(p:contains("[!NOTE]")) {
-  border-left-color: #0969da;
+blockquote[data-type="note"] {
+  border-left: 4px solid #0969da;
   background-color: #f1f8ff;
-  position: relative;
-  padding-top: 8px;
+  background-image: url("../images/info.png");
+  background-repeat: no-repeat;
+  background-position: 12px 12px;
+  background-size: 24px;
+  padding-left: 50px; /* Platz fürs Icon */
+  border-radius: 6px;
 }
 
-blockquote:has(p:contains("[!NOTE]"))::before {
-  content: "💡 NOTE";
+blockquote[data-type="note"]::before {
   font-weight: 600;
   color: #0969da;
   display: block;
   margin-bottom: 6px;
 }
 
-/* Entferne das sichtbare [!NOTE]-Tag im Inhalt */
-blockquote p:first-child:contains("[!NOTE]") {
-  display: none;
+/* Speziell für [!warning]-Blöcke */
+blockquote[data-type="warning"] {
+  border-left: 4px solid #ffe100;
+  background-color: #fef2f2;
+  background-image: url("../images/warning.png");
+  background-repeat: no-repeat;
+  background-position: 12px 12px;
+  background-size: 24px;
+  padding-left: 50px; /* Platz fürs Icon */
+  border-radius: 6px;
+}
+
+blockquote[data-type="warning"]::before {
+  font-weight: 600;
+  color: #ffe100;
+  display: block;
+  margin-bottom: 6px;
 }
 
 /* ============================================================
